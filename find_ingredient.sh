@@ -66,3 +66,4 @@ echo "Found ${count} product(s) containing: \"${INGREDIENT}\""
 # Cleanup
 rm -f "$tmp_csv" "$tmp_matches"
 
+chmod+xfind_ingredient.sh
